@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    background-color: green;
+}
+fieldset {
+    margin: 0;
+    background-color: palevioletred;
+    border-color: brown;
+    flex-grow: 1;
+    max-width: 300px;;
+    border: solid 1em;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+figcaption {
+    font-weight: bold;
+    text-align: center;
+}
+img {
+    position: inherit;
+    display: flex;
+}
+fieldset + fieldset {
+    margin-left: 5px;
+}
+.text {
+    display: flex;
+}
