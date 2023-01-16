@@ -3,26 +3,33 @@ body {
     background-color: green;
 }
 fieldset {
-    margin: 0;
+    display: inline;
+    height: fit-content;
     background-color: palevioletred;
-    border-color: brown;
-    flex-grow: 1;
-    max-width: 300px;;
     border: solid 1em;
+    border-color: brown;
+    top: 0;
+    left: 0;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: flex-end;
 }
 figcaption {
     font-weight: bold;
     text-align: center;
 }
 img {
-    position: inherit;
-    display: flex;
+    margin: auto;
+    display: inline-block;
 }
 fieldset + fieldset {
     margin-left: 5px;
 }
 .text {
-    display: flex;
+    position: relative;
+    height: auto;
+    max-width: 250px;
+    float: left;
+    word-wrap: break-word;
+
 }
